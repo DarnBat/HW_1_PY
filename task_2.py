@@ -1,0 +1,5 @@
+total_cranes = int(input("Введите общее число журавликов: "))
+kate_cranes = int(total_cranes * 2 / 3)
+serj_cranes = int(total_cranes / 6)
+pete_cranes = int(serj_cranes)
+print(f"{serj_cranes}  {kate_cranes}  {pete_cranes}")

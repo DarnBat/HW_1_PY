@@ -1,0 +1,5 @@
+rows = int(input("Введите высоту шоколадки: "))
+cols = int(input("Введите ширину шоколадки: "))
+piece = int(input("Введите желаемое количество плиток: "))
+if (piece < (rows * cols)) and (piece % cols == 0 or piece % rows == 0): print("yes")
+else: print("no")
